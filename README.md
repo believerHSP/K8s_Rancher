@@ -45,4 +45,25 @@ Password:
 psql (15.6 (Debian 15.6-1.pgdg120+2))
 test_db_master=# 
 
+#Environment variables of Database server:
+lenovo@ipa:~/scratch/replication/scripts$ podman exec -it 41989b32abd2 bash
+root@41989b32abd2:/# 
+root@41989b32abd2:/# env
+POSTGRES_PASSWORD=admins@1234
+PWD=/
+container=podman
+HOME=/root
+LANG=en_US.utf8
+GOSU_VERSION=1.17
+PG_MAJOR=15
+PG_VERSION=15.6-1.pgdg120+2
+TERM=xterm
+SHLVL=1
+POSTGRES_USER=admins
+PGDATA=/var/lib/postgresql/data
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/15/bin
+POSTGRES_DB=test_db_slave
+_=/usr/bin/env
+root@41989b32abd2:/# 
+
 
