@@ -6,6 +6,8 @@ Root cause: CRDs are older and not validating resources.
 # Postgres Replication:
 https://www.postgresql.fastware.com/postgresql-insider-ha-str-rep#:~:text=In%20PostgreSQL%2C%20there%20are%20two,units%20of%20tables%20and%20databases.
 
+Administation commands for PG DB servers: https://www3.ntu.edu.sg/home/ehchua/programming/sql/PostgreSQL_GetStarted.html
+
 #Script for Runnning 2 postgres containers i.e. master & slave and also creating a podman network: 
 #!/bin/bash
 
